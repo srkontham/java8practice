@@ -20,6 +20,7 @@ class B extends A {
 }
 
 public class TestStaticMethodInheritance {
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		// Invoke static method from classes
 		A.foo(); // foo() in class A
