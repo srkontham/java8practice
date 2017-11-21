@@ -1,4 +1,4 @@
-package org.srk.practice.java8.streamsLamda;
+package org.srk.practice.java8.streamsLambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;

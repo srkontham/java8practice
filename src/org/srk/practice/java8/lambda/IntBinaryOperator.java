@@ -1,4 +1,4 @@
-package org.srk.practice.java8.lamda;
+package org.srk.practice.java8.lambda;
 
 /*
  * Let's define a Functional Interface to denote 

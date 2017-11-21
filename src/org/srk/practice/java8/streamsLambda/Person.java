@@ -1,4 +1,4 @@
-package org.srk.practice.java8.collectionLamda3;
+package org.srk.practice.java8.streamsLambda;
 
 public class Person {
 	private String name;

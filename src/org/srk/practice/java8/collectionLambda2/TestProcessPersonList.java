@@ -1,4 +1,4 @@
-package org.srk.practice.java8.collectionLamda;
+package org.srk.practice.java8.collectionLambda2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,20 +14,7 @@ public class TestProcessPersonList {
 		System.out.println(Arrays.toString(pList.toArray()));
 		// [Peter(21), Paul(60), Patrick(15)]
 
-		// Pre JDK 8: Using anonymous inner classes
-		ProcessPersonList.FilterReduce(pList, new PersonPredicate() {
-			@Override
-			public boolean test(Person p) {
-				return p.getAge() >= 21; // Filtering criteria
-			}
-		}, new PersonConsumer() {
-			@Override
-			public void accept(Person p) {
-				p.sayHello(); // Apply this operation
-			}
-		});
-
-		// JDK 8: Using Lambda Expressions
+		// Using JDK 8 standard functional interfaces Predicate<T> and Consumer<T>
 		ProcessPersonList.FilterReduce(pList, p -> p.getAge() >= 21, p -> p.sayHello());
 	}
 }

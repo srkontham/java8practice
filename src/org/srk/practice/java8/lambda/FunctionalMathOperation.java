@@ -1,4 +1,4 @@
-package org.srk.practice.java8.lamda;
+package org.srk.practice.java8.lambda;
 
 /*
  * The method operate() takes 2 int's and an object of the Functional Interface  

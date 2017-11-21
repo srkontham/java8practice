@@ -1,4 +1,4 @@
-package org.srk.practice.java8.lamda;
+package org.srk.practice.java8.lambda;
 
 public class TestRunnableLambda {
 	public static void main(String[] args) {

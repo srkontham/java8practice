@@ -1,4 +1,4 @@
-package org.srk.practice.java8.collectionLamda3;
+package org.srk.practice.java8.collectionLambda3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
